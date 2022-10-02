@@ -3,6 +3,8 @@ if table.find(getgenv().alts,game.Players.LocalPlayer.UserId) then
 	print("Loading GUI!")
 elseif game.Players.LocalPlayer.Name == getgenv().controller then
     Testing = true
+else
+    print("Huh?")
 end
 
 if Testing == false then
