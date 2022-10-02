@@ -66,6 +66,6 @@ if Testing == false then
 		local tween = game:GetService("TweenService"):Create(TextLabel, info, {TextColor3 = r[i]})
 		tween:Play()
 		repeat wait() until tween.Completed
-		wait(0.1)
+		wait()
 		if i == #r then i = 1 else i = i + 1 end
 	end
